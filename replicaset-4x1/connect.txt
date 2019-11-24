@@ -1,0 +1,12 @@
+#Connection String
+#https://docs.mongodb.com/manual/reference/connection-string/
+
+#connect inside docker
+#docker exec -it mongo-myproject-01-host mongo -u god -p 87654312 --host 127.0.0.1 --port 27017
+#docker exec -it mongo-myproject-02-host mongo -u god -p 87654312 --host 127.0.0.1 --port 27017
+#docker exec -it mongo-myproject-03-host mongo -u god -p 87654312 --host 127.0.0.1 --port 27017
+#docker exec -it mongo-myproject-04-host mongo -u god -p 87654312 --host 127.0.0.1 --port 27017
+#docker exec -it mongo-myproject-05-arbiter mongo
+
+#connect through the replicaset outside docker
+#mongo mongodb://god:87654312@127.0.0.1:30001,127.0.0.1:30002,127.0.0.1:30003,127.0.0.1:30004/admin?replicaSet=rsMYPROJECT01
