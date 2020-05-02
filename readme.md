@@ -3,6 +3,7 @@ Basic Templates for Docker MongoDb Containers
 
 ## Templates
 1. [Replicaset - 4 Hosts + 1 Arbiter](./replicaset-4x1)
+2. [Sigle node](./singlenode)
 
 ## Contributing
 
